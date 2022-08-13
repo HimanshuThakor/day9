@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Animation 1
+        </title>
+        <style type="text/css">
+            div
+            {
+                width: 150px;
+                height: 150px;
+                background-color: rgb(123,36,199);
+                position: relative;
+                animation-name: abc;
+                animation-duration: 5s;
+                animation-iteration-count: infinite;
+            }
+
+            @keyframes abc{
+                0%{background-color: rgb(134, 217, 245);left: 0px;
+               top: 0px;transform: rotate(0deg); }
+               25%{background-color: rgb(153, 233, 148);left:200px;
+               top: 0px;transform: rotate(90deg); }
+               50%{background-color: rgb(150, 150, 231);left:200px;
+               top: 200px;transform: rotate(180deg); }
+               75%{background-color: rgb(236, 225, 144);left:0px;
+                top: 200px;transform: rotate(270deg); }
+                100%{background-color: rgb(241, 172, 118);left:0px;
+                    top: 0px;transform: rotate(360deg); }
+            }
+            </style>
+            </head>
+            <body>
+            <div></div>
+            </body>
+</html>
